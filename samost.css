@@ -1,0 +1,211 @@
+@media screen and (min-device-width: 321px) {
+    footer {
+        align-content: center;
+        text-align: center;
+    }
+
+    body {
+        width: 1280px;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1280px;
+    }
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo_nameup {
+        font-size: 17px;
+
+        font-weight: 500;
+        color: #000000;
+
+    }
+
+    .logo_namedown {
+        font-size: 15px;
+        font-weight: 400;
+        align: center;
+        color: #000000;
+
+    }
+
+    .insta {
+
+        height: 20px;
+        padding-top: 30px;
+        padding-left: 750px;
+    }
+
+    .okay {
+        margin-top: -15px;
+    }
+
+    .facebook {
+        height: 20px;
+        margin-top: -45px;
+        padding-left: 850px;
+
+    }
+
+
+    button {
+        border-radius: 12px;
+        color: darkgray;
+        height: 30px;
+        width: 100px;
+        align: center;
+        outline: none;
+        border: none;
+
+    }
+
+    .phone {
+        color: #000000;
+        padding-left: 650px;
+        text-align: right;
+    }
+
+
+    header {
+
+        background-color: #FFFFFF;
+        flex-direction: column;
+        color: white;
+        height: 75px;
+        width: 1280px;
+        display: flex;
+        align-items: center;
+    }
+
+    .year {
+        margin-top: 20px;
+    }
+
+
+    .logo {
+        padding-left: 25px;
+        display: flex;
+
+
+        width: 90px;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    hr {
+        margin-top: 20px;
+        padding-top: 20px;
+        width: 1200px;
+        background-color: #ffa500;
+    }    .hr2{
+                 margin-top: 20px;
+                 padding-top: 20px;
+                 width: 1200px; height: 1px;
+                 background-color: gray;
+             }
+}
+    @media screen and (max-device-width: 320px) {
+        body{
+            width:320px;
+margin-left: 20px;
+        }
+        header {
+
+            background-color: #FFFFFF;
+            flex-direction: column;
+            color: white;
+
+            width: 320px;
+            display: flex;
+
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 420px; margin-left: 20px;
+        }
+        .logo {
+
+            display: flex;
+            margin-top: 25px;
+            width: 120px;
+            align-content: center;
+            justify-content: flex-start;
+  }
+        .insta{
+
+            width: 60px;
+            padding-top: -170px;
+           margin-left: 350px;
+            margin-right: 0px;
+            padding-left: 30px;
+            margin-top: -75px;
+        }
+        button {
+            border-radius: 12px;
+ background: darkslategrey;
+            height: 50px;
+            width: 120px;
+            align: center;
+            outline: none;
+            border: none;
+color:white; margin-left: 30px;
+        }
+        .facebook{
+            width: 60px;            margin-left: 350px;
+            margin-right: 0px;
+            padding-left: 30px;}
+        .logo_nameup {
+       font-size: 25px;
+margin-top: 0px;
+            font-weight: 500;
+            color: #000000;
+width: 300px;
+        }
+        .phone {
+            color: #000000;
+            text-align: right;margin-top: -20px;
+        }
+        .logo_namedown {
+            font-size: 22px;
+            font-weight: 400;
+            align: center;
+            color: #000000;
+
+        }
+        hr {
+
+            width: 320px;
+            background-color: #ffa500;
+        }
+        .year {
+           text-align:center;
+margin-top: 20px;
+margin-left: 130px;}
+.firstblock{
+width: 320px;
+       display: flex;
+         flex-direction: inherit;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
